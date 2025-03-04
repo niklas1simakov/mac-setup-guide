@@ -10,7 +10,7 @@
     <a href="https://github.com/niklas1simakov/mac-setup-guide">
       <img src="https://img.shields.io/github/last-commit/niklas1simakov/mac-setup-guide.svg" />
     </a>
-    <a href="https://github.com/niklas1simakov/CONTRIBUTING.md">
+    <a href="https://github.com/niklas1simakov/mac-setup-guide/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
     </a>
   </p>
