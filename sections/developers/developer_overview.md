@@ -128,3 +128,37 @@ Host workgit
 - [ ] [IDEs from JetBrains](https://www.jetbrains.com/) ($ subscription) - JetBrains family of IDEs (IntelliJ IDEA, PyCharm, RubyMine, CLion, AppCode)
 - [ ] (recommended for iOS development) [Xcode](https://developer.apple.com/xcode/) (free) - Apple IDE for iOS, iPadOS, watchOS, tvOS and macOS development, includes Apple iPhone and iPad emulators
 - [ ] (recommended for Android development) [Android Studio](https://developer.android.com/studio) (free) - Android IDE for Android development, includes Android emulator
+
+### VSCode/Cursor/Windsurf/Trae Extensions
+
+NOT done yet! In progress!
+
+As Cursor, Windsurf & Trae are based on VSCode, most of the extensions are compatible with them.
+
+Most essential extensions can be found in the [VSCode docs](https://code.visualstudio.com/docs). Just select the language you are interested in and search for extensions.
+
+#### JS, React, TypeScript, Tailwind
+
+- [ ] [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (free) - ESLint for VSCode
+- [ ] [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) (free) - Tailwind CSS IntelliSense for VSCode
+- [ ] [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (free) - Prettier for VSCode
+- [ ] [Color Picker Universal](https://marketplace.visualstudio.com/items?itemName=JeronimoEkerdt.color-picker-universal) (free) - Color picker & converter for VSCode with support for multiple formats including hsl, oklch, oklab, hwb, lab, lch, and more (one of the only color pickers that supports oklch and oklab)
+
+#### Python
+
+- [ ] [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (free) - Python for VSCode
+- Linter's
+  - [ ] [Pylint](https://marketplace.visualstudio.com/items?itemName=ms-python.pylint) (free) - Pylint for VSCode (most extensive linter, but also slower)
+  - [ ] [mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker) (free) - Mypy for VSCode
+  - [ ] [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (free) - Ruff for VSCode (fastest linter built in Rust, but less comprehensive)
+  - [ ] [flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) (free) - Flake8 for VSCode
+- Formatters
+  - [ ] [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) (free) - Black Formatter for VSCode
+  - [ ] [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort) (free) - isort for VSCode
+  - [ ] [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (free) - Ruff for VSCode
+  - [ ] [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8) (free) - autopep8 for VSCode
+
+#### Docker
+
+- [ ] [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) (free) - Docker for VSCode
+- [ ] [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (free) - Development Containers for VSCode
