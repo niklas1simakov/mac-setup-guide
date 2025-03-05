@@ -2,6 +2,11 @@
 
 # General Overview
 
+## [System Preferences](system_preferences.md)
+
+- [ ] [System Preferences](system_preferences.md)
+- [ ] [Dock](system_preferences.md#dock-settings)
+
 ## [Finder Setup](finder_setup.md)
 
 - [ ] [Finder Settings & View Options](finder_setup.md#finder-settings)
@@ -20,14 +25,6 @@
 
 - [ ] [Browsers](browsers_and_extensions.md#browsers)
 - [ ] [Extensions](browsers_and_extensions.md#extensions)
-
-## [System Preferences](system_preferences.md)
-
-- [ ] [System Preferences](system_preferences.md)
-
-## [Dock](dock.md)
-
-- [ ] [Dock](dock.md)
 
 ## [General Software (optional)](general_software.md)
 

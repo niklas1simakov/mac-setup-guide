@@ -23,6 +23,8 @@ For developers, I recommend to read the [Developer Overview](sections/developers
 ## Table of Contents
 
 - [General Essentials](sections/general/general_overview.md)
+  - [System Preferences](sections/general/system_preferences.md)
+    - [Dock](sections/general/system_preferences.md#dock-settings)
   - [Finder Setup](sections/general/finder_setup.md)
     - [Finder Settings & View Options](sections/general/finder_setup.md#finder-settings)
     - [Finder Customize Toolbar](sections/general/finder_setup.md#customize-toolbar)
@@ -30,8 +32,6 @@ For developers, I recommend to read the [Developer Overview](sections/developers
     - [Finder Extensions](sections/general/finder_setup.md#finder-extensions)
   - [Utilities](sections/general/utilities.md)
   - [Browsers & Extensions](sections/general/browsers_and_extensions.md)
-  - [System Preferences](sections/general/system_preferences.md)
-  - [Dock](sections/general/dock.md)
   - [General Software (optional)](sections/general/general_software.md)
 - [For developers](sections/developers/developer_overview.md)
   - [Terminal](sections/developers/developer_overview.md#terminal)
