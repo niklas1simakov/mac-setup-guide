@@ -5,7 +5,7 @@
   </p>
   <p>
     <a href="https://github.com/niklas1simakov/mac-setup-guide">
-      <img src="https://img.shields.io/badge/macOS-15.3-blue.svg" /> 
+      <img src="https://img.shields.io/badge/macOS-15.3-blue.svg" />
     </a>
     <a href="https://github.com/niklas1simakov/mac-setup-guide">
       <img src="https://img.shields.io/github/last-commit/niklas1simakov/mac-setup-guide.svg" />
