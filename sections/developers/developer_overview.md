@@ -125,5 +125,7 @@ Host workgit
 - [ ] (recommended) [Cursor](https://www.cursor.com/) (free, $ premium subscription) - Code editor with AI agent
 - [ ] [Windsurf](https://codeium.com/windsurf) (free, $ premium subscription) - Code editor with AI agent
 - [ ] [Trae](https://www.trae.ai/) (currently free) - Code editor with AI agent (by ByteDance, parent company of TikTok)
-- [ ] [VSCode](https://code.visualstudio.com/) (free)
+- [ ] [Visual Studio Code (short: VSCode)](https://code.visualstudio.com/) (free)
 - [ ] [IDEs from JetBrains](https://www.jetbrains.com/) ($ subscription) - JetBrains family of IDEs (IntelliJ IDEA, PyCharm, RubyMine, CLion, AppCode)
+- [ ] (recommended for iOS development) [Xcode](https://developer.apple.com/xcode/) (free) - Apple IDE for iOS, iPadOS, watchOS, tvOS and macOS development, includes Apple iPhone and iPad emulators
+- [ ] (recommended for Android development) [Android Studio](https://developer.android.com/studio) (free) - Android IDE for Android development, includes Android emulator
