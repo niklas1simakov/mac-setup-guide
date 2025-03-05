@@ -1,7 +1,7 @@
 <div align="center">
   <h1> Opinionated Mac Setup Guide</h1>
   <p>
-    <em>Opinionated Mac Setup Guide in general and for developers</em>
+    <em>Opinionated Mac Setup Guide for anyone interested in improving their setup (includes a section for developers)</em>
   </p>
   <p>
     <a href="https://github.com/niklas1simakov/mac-setup-guide">
@@ -16,9 +16,7 @@
   </p>
 </div>
 
-This is an opinionated guide to setup a MacOS including everyday essentials, finder setup, and more. Additionally, there are sections for developers with tools and setup instructions.
-
-For developers, I recommend to read the [Developer Overview](sections/developers/developer_overview.md) section first and then continue with the [General Essentials](sections/general/general_overview.md) section. And use [Homebrew](https://brew.sh/) to install and manage tools (at least the ones which are available via Homebrew). Because then updates are just a `brew upgrade` away.
+This is an opinionated guide to setup a MacOS including everyday essentials, setting up system preferences, finder setup, helpful utilities and more. Additionally, there are sections for developers with terminal tools, language installations, and more.
 
 ## Table of Contents
 
