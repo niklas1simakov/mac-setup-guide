@@ -82,3 +82,25 @@ on run {input, parameters}
     end tell
 end run
 ```
+
+### Open Ghostty Terminal
+
+Open a new tab in Ghostty Terminal.
+
+```applescript
+on run {input, parameters}
+    tell application "Finder"
+        set selectedItems to selection
+        if (count of selectedItems) is greater than 0 then
+            -- If a folder is selected, use its path
+            set folderPath to POSIX path of (first item of selectedItems as alias)
+        else
+            -- If nothing is selected, use the current Finder window's path
+            set folderPath to POSIX path of (target of front window as alias)
+        end if
+    end tell
+
+    -- Open GhosttyTerminal (it supports command line parameters)
+    do shell script "open -a Ghostty " & quoted form of folderPath
+end run
+```
