@@ -18,6 +18,8 @@
 
 This is an opinionated guide to setup a MacOS including everyday essentials, finder setup, and more. Additionally, there are sections for developers with tools and setup instructions.
 
+For developers, I recommend to read the [Developer Overview](sections/developers/developer_overview.md) section first and then continue with the [General Essentials](sections/general/general_overview.md) section. And use [Homebrew](https://brew.sh/) to install and manage tools (at least the ones which are available via Homebrew). Because then updates are just a `brew upgrade` away.
+
 ## Table of Contents
 
 - [General Essentials](sections/general/general_overview.md)
@@ -43,7 +45,7 @@ This is an opinionated guide to setup a MacOS including everyday essentials, fin
 
 Thank you to the following projects for the inspiration and some parts of the guide:
 
-- [ ] [Front End Web Development Setup for  macOS](https://github.com/rohankvats/mac-setup?tab=readme-ov-file) (by Rohan Vats)
-- [ ] [MacBook Pro M1 Setup](https://github.com/danvega/new-macbook-setup/blob/master/2021/README.md) (by Dan Vega)
-- [ ] [Mac Setup Script](https://github.com/gricard/new-mac/blob/master/setup.sh) (by Gabriel Ricard)
-- [ ] [New Computer Setup](https://github.com/nnja/new-computer) (by Nina Zakharenko)
+- [Front End Web Development Setup for  macOS](https://github.com/rohankvats/mac-setup?tab=readme-ov-file) (by Rohan Vats)
+- [MacBook Pro M1 Setup](https://github.com/danvega/new-macbook-setup/blob/master/2021/README.md) (by Dan Vega)
+- [Mac Setup Script](https://github.com/gricard/new-mac/blob/master/setup.sh) (by Gabriel Ricard)
+- [New Computer Setup](https://github.com/nnja/new-computer) (by Nina Zakharenko)
