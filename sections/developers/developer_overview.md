@@ -129,6 +129,22 @@ Host workgit
 - [ ] (recommended for iOS development) [Xcode](https://developer.apple.com/xcode/) (free) - Apple IDE for iOS, iPadOS, watchOS, tvOS and macOS development, includes Apple iPhone and iPad emulators
 - [ ] (recommended for Android development) [Android Studio](https://developer.android.com/studio) (free) - Android IDE for Android development, includes Android emulator
 
+### Plain text editor
+
+- [ ] [CotEditor](https://coteditor.com/) (free) - Plain text editor for macOS
+- [ ] [Duti](https://github.com/moretension/duti) (free) - Duti is a command-line utility for setting default applications for document types and URL schemes on macOS.
+
+  - [ ] Install Duti: `brew install duti`
+  - [ ] Set default editor:
+
+  ```sh
+  duti -s com.coteditor.CotEditor public.shell-script all
+  duti -s com.coteditor.CotEditor public.plain-text all
+  duti -s com.coteditor.CotEditor public.utf8-plain-text all
+  duti -s com.coteditor.CotEditor public.data all # for files with no extension
+  # duti -s com.coteditor.CotEditor public.source-code all # for source code files (optional)
+  ```
+
 ### VSCode/Cursor/Windsurf/Trae Extensions
 
 NOT done yet! In progress!
