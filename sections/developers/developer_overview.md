@@ -43,7 +43,6 @@ Required for a lot of tools to work.
   ```sh
   brew install fnm # node.js version manager
   fnm install --lts # install latest stable version of node.js & npm
-  fnm use --lts # use the latest stable version of node.js
 
   # alternative package managers (use corepack (bundeled with node.js) to install them)
   corepack enable yarn  # alternative to npm (optional)
