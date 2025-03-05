@@ -26,6 +26,7 @@ Required for a lot of tools to work.
 
 - [ ] [Homebrew](https://brew.sh/) (free) - Package manager for macOS
 - [ ] (optional) Update basic packages and manage with brew package manager:
+
   ```sh
   brew install git  # upgrade to latest
   brew install git-lfs  # track large files in git https://github.com/git-lfs/git-lfs
@@ -36,10 +37,38 @@ Required for a lot of tools to work.
   brew link curl --force
   brew install trash  # move to osx trash instead of rm
   ```
-- [ ] (optional) Install some other packages:
+
+- [ ] (recommended) Install node.js and package managers
+
   ```sh
-  # to be added
+  brew install fnm # node.js version manager
+  fnm install --lts # install latest stable version of node.js & npm
+  fnm use --lts # use the latest stable version of node.js
+
+  # alternative package managers (use corepack (bundeled with node.js) to install them)
+  corepack enable yarn  # alternative to npm (optional)
+  corepack enable pnpm  # alternative to npm or yarn (recommended)
+
+  # check installation & versions
+  node -v # check node.js version
+  npm -v # check npm version
+  yarn -v # check yarn version
+  pnpm -v # check pnpm version
   ```
+
+- [ ] (recommended) Install python (with [uv](https://docs.astral.sh/uv/))
+
+  I recommend using [`uv`](https://docs.astral.sh/uv/) to install python and all python packages. It's a modern package manager for python that is faster and more efficient than the default package manager. And you will able to avoid a lot of issues with dependencies. I don't recommend installing python directly with brew. Other options that are popular are `pyenv`, `miniconda` or `poetry` (also a good option), but uv is way more performant and my recommendation.
+
+  ```sh
+  brew install uv
+  ```
+
+  Explore uv docs for usage details. [`uv` docs](https://docs.astral.sh/uv/)
+
+- [ ] (recommended) Install [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/)
+
+  I recommend using [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/) to install docker and not homebrew, as docker requires a lot of permissions and additional packaged and it's easier to manage with the installer.
 
 ### Generate SSH keys (& signing keys)
 
