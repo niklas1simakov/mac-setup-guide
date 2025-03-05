@@ -20,89 +20,30 @@ This is an opinionated guide to setup a MacOS including everyday essentials, fin
 
 ## Table of Contents
 
-- [Programs to install & setup](#programs-to-install--setup)
-  - [Essentials](#essentials)
-    - [Finder](#finder)
-    - [Utilities](#utilities)
-    - [Browsers](#browsers)
-  - [For developers](#for-developers)
-    - [Terminal](#terminal-for-developers)
-    - [Code Editor](#code-editor-for-developers)
-  - [Additional (optional)](#additional-optional)
-    - [Password Manager](#password-manager)
-    - [Window Manager](#window-manager)
-    - [Office](#office)
-    - [AI](#ai)
+- [General Essentials](sections/general/general_overview.md)
+  - [Finder Setup](sections/general/finder_setup.md)
+    - [Finder Settings & View Options](sections/general/finder_setup.md#finder-settings)
+    - [Finder Customize Toolbar](sections/general/finder_setup.md#customize-toolbar)
+    - [Finder Add Custom Buttons](sections/general/finder_add_custom_buttons.md)
+    - [Finder Extensions](sections/general/finder_setup.md#finder-extensions)
+  - [Utilities](sections/general/utilities.md)
+  - [Browsers & Extensions](sections/general/browsers_and_extensions.md)
+  - [System Preferences](sections/general/system_preferences.md)
+  - [Dock](sections/general/dock.md)
+  - [General Software (optional)](sections/general/general_software.md)
+- [For developers](sections/developers/developer_overview.md)
+  - [Terminal](sections/developers/developer_overview.md#terminal)
+  - [Command Line Tools](sections/developers/developer_overview.md#command-line-tools)
+  - [IDEs](sections/developers/developer_overview.md#ides)
+- [Inspirations](#inspired-by)
 
 ---
 
-## Programs to install & setup
+## Inspired by...
 
-### Essentials
+Thank you to the following projects for the inspiration and some parts of the guide:
 
-#### Finder
-
-- [ ] [Finder Setup](sections/finder/finder_setup.md)
-
-#### Utilities
-
-- [ ] [AltTab](https://alt-tab-macos.netlify.app/) (free) - Windows like alt-tab on macOS
-- [ ] [LinearMouse](https://linearmouse.app/) (free) - Seperate scroll direction for your mouse and trackpad & more customizations (like command+ scroll zoom in Preview)
-- [ ] [MonitorControl](https://github.com/MonitorControl/MonitorControl) (free) - Control your monitors brightness, contrast, volume, etc.
-- [ ] [Bartender](https://www.macbartender.com/) (25$) - Organize your menu bar
-  - Free Alternative: [Hidden Bar](https://github.com/dwarvesf/hidden) (unfortunately not as good as Bartender)
-- [ ] [IINA](https://iina.io/) (free) - Open source fast and modern video player with a lot of features and support for a lots of formats
-- [ ] [The Unarchiver](https://theunarchiver.com/) (free) - Archive manager like 7zip with support for a lot of formats
-- [ ] [Amphetamine](https://apps.apple.com/de/app/amphetamine/id937984704) (free) - Keep your Mac awake and prevent sleep mode
-- [ ] [AppCleaner](https://freemacsoft.net/appcleaner/) (free) - Remove remaining files when uninstalling apps easily & automatically
-- [ ] (optional) [Raycast](https://www.raycast.com/) (free, $ premium version) - Spotlight alternative with additional features
-
-#### Browsers
-
-- [ ] [Google Chrome](https://www.google.com/chrome/) (free)
-- [ ] [Arc](https://www.arc.net/) (free)
-- [ ] Extensions for Safari:
-  - [ ] Add Blocker: AdGuard for Safari (free) [App Store](https://apps.apple.com/de/app/adguard-for-safari/id1440147259)
-  - [ ] (optional) Password Manager (example: 1Password)
-
-### For developers
-
-#### Terminal
-
-- [ ] [Homebrew](https://brew.sh/) (free) - Package manager for macOS
-- [ ] [Oh My Zsh](https://ohmyz.sh/) (free) - Open source shell framework for managing your shell configuration
-  - recommended plugins: git
-- [ ] Xcode Command Line Tools (free) - Xcode command line tools essential for a lot of tools to work
-  - Install: `xcode-select --install`
-- [ ] (optional) [Ghosty](https://ghostty.org/) (free) - Fast and open source terminal with a lot of features
-- [ ] (optional) [iTerm2](https://iterm2.com/) (free) - Alternative to the default terminal
-
-#### Code Editor
-
-- [ ] [Visual Studio Code](https://code.visualstudio.com/) (free)
-- [ ] (recommended) [Cursor](https://www.cursor.com/) ($ subscription) - Code editor with AI agent
-- [ ] [Windsurf](https://codeium.com/windsurf) (free) - Code editor with AI agent
-- [ ] [Trae](https://www.trae.ai/) (free) - Code editor with AI agent (by ByteDance, parent company of TikTok)
-
-### Additional (optional)
-
-#### Password Manager
-
-- [ ] (recommended) [1Password](https://1password.com/downloads/mac/) ($ subscription) - Password manager with a lot of features
-- [ ] [Bitwarden](https://bitwarden.com/) (free) - Open Source Password manager
-- [ ] Apple Password Manager (free) (preinstalled on macOS) - if you have only Apple devices
-
-#### Window Manager
-
-- [ ] [Rectangle](https://rectangleapp.com/) (free) - Window manager to move and snap windows to different positions (better than the default macOS window manager)
-  - Alternative: [Magnet](https://apps.apple.com/de/app/magnet/id441258766) (5$)
-
-#### Office
-
-- [ ] [Microsoft Office](https://www.microsoft.com/microsoft-365) ($ subscription) - Word, Excel, PowerPoint, etc.
-- [ ] [LanguageTool](https://languagetool.org/) (free, $ premium version - Grammar and spell check in over 20 languages (alternative to Grammarly)
-  - Grammarly: [Grammarly](https://www.grammarly.com/) (free, $ premium version)
-
-#### AI
-
-- [ ] ChatGPT (free) [Download](https://chatgpt.com/)
+- [ ] [Front End Web Development Setup for  macOS](https://github.com/rohankvats/mac-setup?tab=readme-ov-file) (by Rohan Vats)
+- [ ] [MacBook Pro M1 Setup](https://github.com/danvega/new-macbook-setup/blob/master/2021/README.md) (by Dan Vega)
+- [ ] [Mac Setup Script](https://github.com/gricard/new-mac/blob/master/setup.sh) (by Gabriel Ricard)
+- [ ] [New Computer Setup](https://github.com/nnja/new-computer) (by Nina Zakharenko)

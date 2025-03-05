@@ -1,6 +1,6 @@
-[README](../../README.md) > [Finder Setup](finder_setup.md) > [Add Custom Buttons](finder_add_custom_buttons.md)
+[README](../../README.md) > [General](general_overview.md) > [Finder Setup](finder_setup.md) > [Add Custom Buttons](finder_add_custom_buttons.md)
 
-# Finder:Add Custom Buttons to the Toolbar
+# Finder: Add Custom Buttons to the Toolbar
 
 ## Video Tutorial
 
@@ -44,6 +44,7 @@ end run
    - download an appropriate icon from the internet
    - right-click on the application and select `Get Info`
    - copy paste the icon onto the icon of the application
+   - recommended: make the icon a bit smaller and add some padding as otherwise the icon will be quite big
 
 ## Some more example scripts
 

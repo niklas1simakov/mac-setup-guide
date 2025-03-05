@@ -1,4 +1,4 @@
-[README](../../README.md) > [Finder Setup](finder_setup.md)
+[README](../../README.md) > [General](general_overview.md) > [Finder Setup](finder_setup.md)
 
 # Finder Setup
 
@@ -44,11 +44,18 @@
 
 ### Setup some cloud storage (recommended)
 
-- [ ] Install Onedrive (free) [Download](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) / Google Drive (free) [Download](https://www.google.com/drive/download/) / use iCloud (free & preinstalled) / ...
+- [ ] (personal preference) [Onedrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) (free)
+  - I like the integration with Microsoft 365 & you get 1TB of cloud storage with a subscription
+- [ ] [Google Drive](https://www.google.com/drive/download/) (free)
+- [ ] iCloud (free & preinstalled)
 
-## Finder Extensions (advanced) (for developers)
+## Advanced & Optional (for developers)
 
-### Quick Look Extensions
+### Add custom toolbar buttons
+
+- [ ] [Add custom toolbar buttons](finder_add_custom_buttons.md)
+
+### Finder Quick Look Extensions
 
 Quick Look is the preview you get when you press spacebar on a file.
 
@@ -60,3 +67,18 @@ Quick Look is the preview you get when you press spacebar on a file.
   - A tool to generate previews of markdown files. Natively macOS doesn't render markdown files, but only shows the source code.
 - [ ] (optional) PreviewJSON (1$) [Download](https://smittytone.net/previewjson/)
   - A tool to generate previews of highlighted JSON files. Natively macOS doesn't highlight JSON files, but shows the source code.
+
+### Make Finder quitable
+
+- To make Finder quitable, you can run the following command in the terminal. Please consider that when you quit Finder your Desktop icons will also disappear until you restart Finder. Additionally, Finder will take slightly longer to start and you will have to double click to open a finder window.
+  ```sh
+  osascript -e 'tell application "System Preferences" to quit'  # quit System Preferences
+  defaults write com.apple.finder QuitMenuItem -bool true  # make Finder quitable
+  killall Finder  # restart Finder
+  ```
+- to restore Finder to its default behavior, run:
+  ```sh
+  osascript -e 'tell application "System Preferences" to quit'  # quit System Preferences
+  defaults write com.apple.finder QuitMenuItem -bool false  # restore Finder quitable
+  killall Finder  # restart Finder
+  ```
